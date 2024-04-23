@@ -124,3 +124,148 @@ input[type="checkbox"]{
     color: white;
     cursor: pointer;
 }
+
+/* FINAL DA PÁGINA */
+
+footer{
+    width: 100%;
+    background-color: #0C70F2;
+}
+
+footer .linha1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 330px;
+}
+
+footer h5{
+    text-align: center;
+    color: white;
+    font-weight: 800px;
+    font-family: "Inter";
+    font-size: 18px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 15px;
+}
+
+footer ul li{
+    text-align: center;
+    color: white;
+    font-weight: 600px;
+    font-family: "Inter";
+    font-size: 18px;
+    margin: 20px 0px 20px 0px;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .endereco{
+    font-weight: 600px;
+    font-family: "Inter";
+    font-size: 18px;
+    color: white;
+    width: 20%;
+    text-align: center;
+}
+
+footer ul li a:hover{
+    color: #CCCCCC;
+}
+
+footer .linha2{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 10px;
+    height: 35px;
+}
+
+footer .linha2 a{
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 600px;
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+}
+
+footer .linha2 a:first-child{
+    border-right: 3px solid white;
+}
+
+footer .linha2 a:hover{
+    color: #CCCCCC;
+}
+
+/* AJUSTES PARA CELULAR */
+/* MENU PRINCIPAL */
+
+@media only screen and (max-width: 600px) {
+    #principal {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    #menu {
+      flex-direction: column;
+      width: 100%;
+      margin: 0px;
+    }
+  
+    #menu a {
+        display: flex;
+        height: 50px;
+        align-items: center;
+    }
+
+    #principal button{
+        width: 100%;
+        margin: 0px;
+    }
+
+    /* TEXTO PRINCIPAL */
+    
+    #texto h1{
+        font-size: 40px;
+    }
+
+    #texto h2{
+        font-size: 20px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    #form{
+        width: 95%;
+        font-size: 20px;
+        margin-left: 2%;
+    }
+
+    .form-group{
+        width: 100%;
+    }
+
+    .checkbox-itens label{
+        font-size: 20px;
+    }
+
+  }
+
