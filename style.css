@@ -244,11 +244,11 @@ footer .linha2 a:hover{
     /* TEXTO PRINCIPAL */
     
     #texto h1{
-        font-size: 40px;
+        font-size: 45px;
     }
 
     #texto h2{
-        font-size: 20px;
+        font-size: 31px;
         padding-right: 5px;
         padding-left: 5px;
     }
@@ -266,6 +266,17 @@ footer .linha2 a:hover{
     .checkbox-itens label{
         font-size: 20px;
     }
+
+     /*AJUSTANDO FOOTER*/
+
+     .linha1 {
+        flex-direction: column;
+      }
+
+      footer .endereco{
+        width: 95%;
+        margin-bottom: 20px;
+      }
 
   }
 
